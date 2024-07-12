@@ -1,0 +1,74 @@
+{
+  "stories": [
+    {
+      "id": 0,
+      "title": "BEHIND THE SCREENS",
+      "description": "With this immersive documentary we're exposing the reality of the smartphone industry.",
+      "image": "Card 1.png",
+      "link": "behind-the-screens"
+    },
+    {
+      "id": 1,
+      "title": "THE FAIRPHONE EXPERIMENT IS CHANGING THE TECH...",
+      "description": "That’s what iFixit founder and CEO Kyle Wiens thinks after tracking Fairphone’s journey over the last ten years.",
+      "image": "Card 2.png",
+      "link": "fixing-the-tech-industry"
+    },
+    {
+      "id": 2,
+      "title": "APPLE THINKS MODULARITY HINDERS DEVICE LONGEVITY. WE...",
+      "description": "Apple’s new head of hardware, John Ternus, was asked whether iPhones could ever be as easy to repair as Fairphones.",
+      "image": "Card 3.png",
+      "link": "modularity-hinders-device-longevity"
+    },
+    {
+      "id": 3,
+      "title": "FAIRPHONE 4: A NEW CHAPTER",
+      "description": "Discover how Fairphone 4 is pushing the boundaries of sustainable technology.",
+      "image": "Card 4.png",
+      "link": "fairphone-4"
+    },
+    {
+      "id": 4,
+      "title": "MEET THE MAKERS",
+      "description": "An inside look at the people behind Fairphone and their journey to make ethical electronics.",
+      "image": "Card 5.png",
+      "link": "meet-the-makers"
+    },
+    {
+      "id": 5,
+      "title": "SUSTAINABLE MATERIALS: THE FUTURE OF TECH",
+      "description": "How Fairphone is leading the way in using sustainable materials in their devices.",
+      "image": "Card 6.png",
+      "link": "sustainable-materials"
+    },
+    {
+      "id": 6,
+      "title": "FAIRPHONE AND CIRCULAR ECONOMY",
+      "description": "Exploring the role of Fairphone in promoting a circular economy for electronics.",
+      "image": "Card 7.png",
+      "link": "circular-economy"
+    },
+    {
+      "id": 7,
+      "title": "A DECADE OF FAIRPHONE: LESSONS LEARNED",
+      "description": "Reflecting on ten years of innovation and impact in the smartphone industry.",
+      "image": "Card 8.png",
+      "link": "decade-of-fairphone"
+    },
+    {
+      "id": 8,
+      "title": "USER STORIES: LIFE WITH A FAIRPHONE",
+      "description": "Hear from Fairphone users about their experiences and why they chose Fairphone.",
+      "image": "Card 9.png",
+      "link": "user-stories"
+    },
+    {
+      "id": 9,
+      "title": "THE FUTURE OF MODULAR PHONES",
+      "description": "Examining the potential and challenges of modular phone design.",
+      "image": "Card 10.png",
+      "link": "future-of-modular-phones"
+    }
+  ]
+}

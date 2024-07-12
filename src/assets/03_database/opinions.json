@@ -1,0 +1,109 @@
+{
+  "opinions": [
+    {
+      "title": "Fantastic product",
+      "description": "This product exceeded my expectations. It's sleek, powerful, and has a great camera.",
+      "rating": 5
+    },
+    {
+      "title": "Disappointing experience",
+      "description": "I expected better quality from this brand. The product feels cheap and doesn't perform well.",
+      "rating": 2
+    },
+    {
+      "title": "Impressive performance",
+      "description": "The performance of this device is outstanding. It handles multitasking with ease and is lightning fast.",
+      "rating": 4
+    },
+    {
+      "title": "Good value for money",
+      "description": "For the price, this product offers great features and functionality. I'm happy with my purchase.",
+      "rating": 4
+    },
+    {
+      "title": "Poor build quality",
+      "description": "The build quality is subpar. It feels flimsy and the materials used are not durable.",
+      "rating": 2
+    },
+    {
+      "title": "Excellent customer service",
+      "description": "I had an issue with my order and the customer service team was very helpful and resolved it quickly.",
+      "rating": 5
+    },
+    {
+      "title": "Average performance",
+      "description": "The device performs adequately for everyday tasks, but it struggles with more demanding applications.",
+      "rating": 3
+    },
+    {
+      "title": "Stylish design",
+      "description": "I love the sleek and modern design of this product. It looks great on my desk.",
+      "rating": 4
+    },
+    {
+      "title": "Needs improvement",
+      "description": "While the product has potential, there are some key areas that could use improvement, especially the battery life.",
+      "rating": 3
+    },
+    {
+      "title": "Great features",
+      "description": "This product is packed with useful features that make my life easier. I especially like the intuitive interface.",
+      "rating": 4
+    },
+    {
+      "title": "Unreliable performance",
+      "description": "The device frequently freezes and crashes, making it unreliable for daily use.",
+      "rating": 2
+    },
+    {
+      "title": "Satisfied customer",
+      "description": "Overall, I'm satisfied with this product. It meets my needs and performs well.",
+      "rating": 4
+    },
+    {
+      "title": "Highly recommended",
+      "description": "I would highly recommend this product to anyone looking for a reliable and feature-rich device.",
+      "rating": 5
+    },
+    {
+      "title": "Not worth the money",
+      "description": "Considering the price, this product doesn't offer good value. I expected better quality.",
+      "rating": 2
+    },
+    {
+      "title": "User-friendly interface",
+      "description": "The interface is intuitive and easy to navigate. It makes using this product a pleasure.",
+      "rating": 4
+    },
+    {
+      "title": "Disappointed",
+      "description": "I had high hopes for this product, but it failed to meet my expectations. It lacks key features.",
+      "rating": 2
+    },
+    {
+      "title": "Excellent build quality",
+      "description": "The product feels solid and well-built. It's durable and can withstand daily wear and tear.",
+      "rating": 5
+    },
+    {
+      "title": "Decent performance",
+      "description": "For its price range, this product delivers decent performance. It's suitable for basic tasks.",
+      "rating": 3
+    },
+    {
+      "title": "Great customer support",
+      "description": "I had an issue with installation and the customer support team was patient and helpful throughout the process.",
+      "rating": 5
+    },
+    {
+      "title": "Mixed feelings",
+      "description": "While the product has some good features, there are also some drawbacks that detract from its overall appeal.",
+      "rating": 3
+    },
+    {
+      "title": "Terrible experience",
+      "description": "This product is a complete disappointment. It's unreliable and the customer support is unresponsive.",
+      "rating": 1
+    }
+  ]
+}

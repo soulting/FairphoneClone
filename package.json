@@ -8,10 +8,13 @@
   },
   "dependencies": {
     "vue": "^3.2.13",
-    "vue-router": "^4.0.3"
+    "vue-observe-visibility": "^1.0.0",
+    "vue-router": "^4.0.3",
+    "vue-slick-carousel": "^1.0.6",
+    "vue3-carousel": "^0.3.3"
   },
   "devDependencies": {
     "@vue/cli-plugin-router": "~5.0.0",
-    "@vue/cli-service": "~5.0.0"
+    "@vue/cli-service": "^5.0.8"
   }
 }
