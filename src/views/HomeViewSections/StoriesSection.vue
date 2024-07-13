@@ -6,11 +6,11 @@
       alt="white square background"
     />
 
-    <p class="stories-section-title">Follow our journey</p>
-    <div v-if="sampleStories.loaded" class="example-stories-conteiner">
-      <div class="example-storie-conteiner" v-for="storie in 3" :key="storie">
+    <h2 class="stories-section-title">Follow our journey</h2>
+    <div v-if="sampleStories.loaded" class="example-stories-container">
+      <div class="example-story-container" v-for="storie in 3" :key="storie">
         <img
-          class="example-storie-image"
+          class="example-story-image"
           :src="
             require(`@/assets/01_images/03_backgrounds/${
               sampleStories.stories[storie - 1].image
@@ -18,10 +18,10 @@
           "
           alt="stories image"
         />
-        <p class="example-storie-title">
+        <h3 class="example-story-title">
           {{ sampleStories.stories[storie - 1].title }}
-        </p>
-        <p class="example-storie-description">
+        </h3>
+        <p class="example-story-description">
           {{ sampleStories.stories[storie - 1].description }}
         </p>
         <button
@@ -50,7 +50,7 @@ const goToView = (product) => {
 };
 
 const sampleStories = ref({
-  stories: require([]),
+  stories: [],
   loaded: false,
 });
 
@@ -103,35 +103,35 @@ onMounted(async () => {
   color: white;
 }
 
-.example-stories-conteiner {
+.example-stories-container {
   display: flex;
   gap: 15px;
 }
 
-.example-storie-conteiner {
+.example-story-container {
   border-radius: 25px;
   overflow: hidden;
   width: 400px;
-  height: 450px;
+  height: 500px;
   background-color: white;
   position: relative;
   margin-bottom: 30px;
 }
-.example-storie-image {
+.example-story-image {
   width: 400px;
   object-fit: cover;
   object-position: center;
 }
 
-.example-storie-title {
-  font-size: 16px;
-  padding: 0 10px 0;
+.example-story-title {
+  font-size: 18px;
+  padding: 0 25px 0;
   font-weight: 700;
 }
 
-.example-storie-description {
+.example-story-description {
   font-size: 16px;
-  padding: 0 10px 0;
+  padding: 0 25px 0;
 }
 
 .example-stories-button {

@@ -1,6 +1,6 @@
 <template>
   <section class="carousel-section section">
-    <p class="carousel-secrion-title">Join the movement</p>
+    <h2 class="carousel-section-title">Join the movement</h2>
     <div class="carousel-container">
       <Carousel
         class="carousel-section-carousel"
@@ -99,50 +99,7 @@ const goToView = (product) => {
 </script>
 
 <style scoped>
-.carousel__slide {
-  padding: 5px;
-}
-
-.carousel__viewport {
-  perspective: 2000px;
-  height: 400px;
-  overflow-y: visible;
-  padding-top: 15px;
-  position: relative;
-}
-
-.carousel__track {
-  transform-style: preserve-3d;
-}
-
-.carousel__slide--sliding {
-  transition: 0.5s;
-}
-
-.carousel__slide {
-  opacity: 0.9;
-  transform: scale(0.9);
-}
-
-.carousel__slide--active ~ .carousel__slide {
-  transform: scale(0.9);
-}
-
-.carousel__slide--prev {
-  opacity: 1;
-  transform: rotateY(-10deg) scale(0.95);
-}
-
-.carousel__slide--next {
-  opacity: 1;
-  transform: rotateY(10deg) scale(0.95);
-}
-
-.carousel__slide--active {
-  opacity: 1;
-  transform: rotateY(0) scale(1.1);
-}
-
+/* General Carousel Styles */
 .carousel-section {
   display: flex;
   flex-direction: column;
@@ -152,10 +109,11 @@ const goToView = (product) => {
   box-shadow: -1px -17px 23px -19px rgb(118, 119, 133);
 }
 
-.carousel-secrion-title {
+.carousel-section-title {
   font-size: 80px;
 }
 
+/* Container Styles */
 .carousel-container {
   display: flex;
   justify-content: center;
@@ -169,34 +127,11 @@ const goToView = (product) => {
   position: relative;
 }
 
-.next-button {
-  position: absolute;
-  top: 30%;
-  right: 0px;
-  height: 100px;
-  width: 100px;
-  border-radius: 50px;
-  background-color: white;
-  border: 1px solid black;
-  opacity: 0;
-  transition: all 0.5s;
-  box-shadow: 0px 0px 33px -12px rgba(66, 68, 90, 1);
-  cursor: pointer;
-}
-
-.next-button:hover {
-  opacity: 1;
-}
-
-.next-button img {
-  height: 50px;
-  margin-left: 7px;
-}
-
+/* Button Styles */
+.next-button,
 .prev-button {
   position: absolute;
   top: 30%;
-  left: 0px;
   height: 100px;
   width: 100px;
   border-radius: 50px;
@@ -208,14 +143,33 @@ const goToView = (product) => {
   cursor: pointer;
 }
 
+.next-button:hover,
 .prev-button:hover {
   opacity: 1;
 }
+
+.next-button {
+  right: 0;
+}
+
+.prev-button {
+  left: 0;
+}
+
+.next-button img,
 .prev-button img {
   height: 50px;
+}
+
+.next-button img {
+  margin-left: 7px;
+}
+
+.prev-button img {
   margin-right: 7px;
 }
 
+/* Carousel Item Styles */
 .carousel__item {
   height: 350px;
   width: 350px;
@@ -245,5 +199,44 @@ const goToView = (product) => {
   box-shadow: 0px 0px 33px -12px rgba(66, 68, 90, 1);
   background-color: black;
   color: white;
+}
+
+/* Custom Carousel Styles */
+.carousel__slide {
+  padding: 5px;
+  opacity: 0.9;
+  transform: scale(0.9);
+}
+
+.carousel__viewport {
+  perspective: 2000px;
+  position: relative;
+}
+
+.carousel__track {
+  transform-style: preserve-3d;
+}
+
+.carousel__slide--sliding {
+  transition: 0.5s;
+}
+
+.carousel__slide--active ~ .carousel__slide {
+  transform: scale(0.9);
+}
+
+.carousel__slide--prev {
+  opacity: 1;
+  transform: rotateY(-10deg) scale(0.95);
+}
+
+.carousel__slide--next {
+  opacity: 1;
+  transform: rotateY(10deg) scale(0.95);
+}
+
+.carousel__slide--active {
+  opacity: 1;
+  transform: rotateY(0) scale(1.03);
 }
 </style>

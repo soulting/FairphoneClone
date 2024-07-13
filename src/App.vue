@@ -91,7 +91,8 @@ body {
 }
 
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: "RadikalBold", sans-serif;
+  letter-spacing: 1.4px;
   position: relative;
   z-index: 10;
 }

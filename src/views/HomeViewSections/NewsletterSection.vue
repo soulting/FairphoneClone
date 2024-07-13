@@ -6,8 +6,8 @@
       alt="background image"
     />
     <div class="newsletter-section-title-container">
-      <p class="newsletter-section-title-left">Stay connected</p>
-      <p class="newsletter-section-title-right">through our newsletter</p>
+      <h2 class="newsletter-section-title-left">Stay connected</h2>
+      <h2 class="newsletter-section-title-right">through our newsletter</h2>
     </div>
     <div class="newsletter-section-email-outer-container">
       <img
@@ -16,7 +16,7 @@
         alt="group of people image"
       />
       <div class="newsletter-section-email-inner-container">
-        <p class="newsletter-section-email-title">INSIDE LOOK</p>
+        <h3 class="newsletter-section-email-title">INSIDE LOOK</h3>
         <p class="newsletter-section-email-description">
           Get early access to our latest stories, exclusive deals and
           opportunities for change.
@@ -52,7 +52,7 @@
       alt="yellow pf image"
     />
     <div
-      v-if="newsleterOverlay"
+      v-if="newsletterOverlay"
       class="newsletter-overlay"
       @click="turnNewsleterOverlayOff"
     >
@@ -71,10 +71,10 @@ import postEmail from "@/composables/postEmail.js";
 const inputOnFocus = ref(false);
 const email = ref("");
 const emailInput = ref(null);
-const newsleterOverlay = ref(false);
+const newsletterOverlay = ref(false);
 
 const turnNewsleterOverlayOff = () => {
-  newsleterOverlay.value = false;
+  newsletterOverlay.value = false;
 };
 
 const handleFocus = () => {
@@ -97,7 +97,7 @@ const submit = async () => {
     const result = await postEmail(email.value);
     if (result === "email added") {
       email.value = "";
-      newsleterOverlay.value = true;
+      newsletterOverlay.value = true;
     } else {
       email.value = "";
     }
@@ -109,7 +109,7 @@ const submit = async () => {
 
 <style scoped>
 .newsletter-section {
-  height: 150vh !important;
+  height: 150vh;
   padding: 100px;
   box-sizing: border-box;
   position: relative;

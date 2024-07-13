@@ -6,7 +6,7 @@
       alt="pf-1 image"
     />
     <div class="recycle-container">
-      <p class="recycyle-title">Give your old phone a second chance</p>
+      <h2 class="recycle-title">Give your old phone a second chance</h2>
       <p class="recycle-description">
         Do you have an old phone lying in a drawer somewhere? Why not reduce the
         waste? It’s worth it.
@@ -67,7 +67,7 @@ const goToView = (product) => {
   width: 700px;
 }
 
-.recycyle-title {
+.recycle-title {
   font-size: 48px;
   margin: 0;
   margin-bottom: 24px;
