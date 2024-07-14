@@ -172,7 +172,7 @@
   >
     <div class="overlay-message-container">
       <p>Congratulations, you're now subscribed to the newsletter.</p>
-      <button>CLOSE</button>
+      <button @click="turnNewsleterOverlayOff">CLOSE</button>
     </div>
   </div>
 </template>
@@ -228,7 +228,7 @@ const submit = async () => {
 
 <style scoped>
 .footer {
-  height: 90vh;
+  height: 95vh;
   background-color: black;
   padding: 100px;
   box-sizing: border-box;
@@ -324,6 +324,7 @@ const submit = async () => {
 .newsletter-section-input-button:hover {
   color: black;
   background-color: white;
+  cursor: pointer;
 }
 
 .email-placeholder {
@@ -384,10 +385,12 @@ const submit = async () => {
 .overlay-message-container button:hover {
   background-color: black;
   color: white;
+  cursor: pointer;
 }
 
 .footer-bottom {
   display: flex;
+  cursor: pointer;
 }
 
 .social-icons {
@@ -397,5 +400,6 @@ const submit = async () => {
 
 .social-icons img {
   height: 25px;
+  cursor: pointer;
 }
 </style>

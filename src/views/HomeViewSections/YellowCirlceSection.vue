@@ -7,7 +7,7 @@
     />
     <h2 class="yellow-circle-title">Best in green electronics</h2>
     <div class="yellow-circle-description-container">
-      <h5>OUR IMPACT</h5>
+      <h3>OUR IMPACT</h3>
       <p>
         There are more phones than people. And behind every device is a complex
         supply chain. With suppliers, local communities and the wider industry,
@@ -55,7 +55,7 @@ export default {};
   width: 50%;
 }
 
-.yellow-circle-description-container h5 {
+.yellow-circle-description-container h3 {
   font-size: 24px;
 }
 

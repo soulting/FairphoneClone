@@ -50,7 +50,7 @@
         <Carousel
           class="carousel"
           :items-to-show="1"
-          :autoplay="50000"
+          :autoplay="10000"
           :wrap-around="true"
         >
           <Slide class="slide" v-for="slide in 3" :key="slide">
