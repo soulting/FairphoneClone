@@ -1,7 +1,7 @@
 <template>
   <div class="home-view-container">
     <VideoSectionVue />
-    <FormerProductsSectionVue />
+    <!-- <FormerProductsSectionVue />
     <MissionStatementSectionVue />
     <MissionExplanationSectionVue />
     <ImpactctSectionVue />
@@ -11,7 +11,7 @@
     <NewsletterSectionVue />
     <OpinionsSectionVue />
     <YellowCirlceSectionVue />
-    <FooterSectionVue />
+    <FooterSectionVue /> -->
   </div>
 </template>
 
@@ -45,10 +45,5 @@ const goToView = (product) => {
   background-color: rgb(245, 239, 235);
   position: relative;
   z-index: -2;
-}
-
-.section {
-  width: 100%;
-  height: 100vh;
 }
 </style>

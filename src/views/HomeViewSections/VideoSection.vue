@@ -39,12 +39,14 @@ const goToProductView = (product) => {
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 100vh;
+  overflow: hidden;
 }
 
 video {
   position: absolute;
-  width: 100%;
-  height: auto;
+  height: 100%;
+  top: 0;
   z-index: -1;
 }
 
@@ -52,7 +54,7 @@ video {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 50%;
+  height: 60%;
 }
 
 .video-section-line {
@@ -73,7 +75,6 @@ video {
 
 #text-line-2.video-section-line {
   margin-bottom: 40px;
-  position: relative;
   left: 200px;
 }
 
@@ -81,7 +82,6 @@ video {
   font-size: 30px;
   line-height: 24px;
   font-weight: 400;
-  position: relative;
   left: 200px;
   margin-bottom: 20px;
 }
@@ -89,7 +89,7 @@ video {
 .video-section-link {
   position: relative;
   left: 200px;
-  height: 70px;
+  height: 60px;
   width: 250px;
   border: none;
   border-radius: 35px;
@@ -100,5 +100,95 @@ video {
 .video-section-link:hover {
   background-color: rgb(228, 202, 110);
   cursor: pointer;
+}
+
+@media (max-width: 500px) {
+  .video-section-content {
+    height: 60%;
+    align-items: center;
+  }
+
+  .video-section-line {
+    position: static;
+    font-size: 50px;
+    margin: 0;
+  }
+
+  #text-line-3.video-section-line {
+    width: 450px;
+    line-height: 35px;
+    font-size: 22px;
+  }
+
+  .video-section-link {
+    position: static;
+    width: 450px;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 650px) {
+  .video-section-content {
+    height: 60%;
+    align-items: center;
+  }
+
+  .video-section-line {
+    position: static;
+    font-size: 75px;
+    margin: 0;
+  }
+
+  #text-line-3.video-section-line {
+    width: 450px;
+    line-height: 35px;
+    font-size: 22px;
+  }
+
+  .video-section-link {
+    position: static;
+    width: 450px;
+  }
+}
+
+@media (min-width: 651px) and (max-width: 950px) {
+  .video-section-content {
+    height: 60%;
+    align-items: center;
+  }
+
+  .video-section-line {
+    font-size: 100px;
+    position: static;
+  }
+
+  #text-line-3.video-section-line {
+    width: 650px;
+    line-height: 35px;
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .video-section-link {
+    position: static;
+  }
+}
+
+@media (min-width: 951px) and (max-width: 1450px) {
+  .video-section-content {
+    height: 60%;
+  }
+
+  .video-section-line {
+    left: -100px;
+  }
+
+  #text-line-2.video-section-line {
+    left: 100px;
+  }
+
+  #text-line-3.video-section-line {
+    width: 650px;
+    line-height: 35px;
+  }
 }
 </style>
