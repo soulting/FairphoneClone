@@ -163,9 +163,7 @@
         />
       </div>
     </div>
-  </div>
-
-  <div
+      <div
     v-if="newsleterOverlay"
     class="newsletter-overlay"
     @click="turnNewsleterOverlayOff"
@@ -175,6 +173,8 @@
       <button @click="turnNewsleterOverlayOff">CLOSE</button>
     </div>
   </div>
+  </div>
+
 </template>
 
 <script setup>

@@ -54,7 +54,6 @@ video {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 60%;
 }
 
 .video-section-line {
@@ -66,7 +65,6 @@ video {
   margin: 0;
   padding: 0;
   position: relative;
-  left: -230px;
 }
 
 #text-line-1.video-section-line {
@@ -75,20 +73,16 @@ video {
 
 #text-line-2.video-section-line {
   margin-bottom: 40px;
-  left: 200px;
 }
 
 #text-line-3.video-section-line {
   font-size: 30px;
   line-height: 24px;
   font-weight: 400;
-  left: 200px;
   margin-bottom: 20px;
 }
 
 .video-section-link {
-  position: relative;
-  left: 200px;
   height: 60px;
   width: 250px;
   border: none;
@@ -102,58 +96,63 @@ video {
   cursor: pointer;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .video-section-content {
-    height: 60%;
     align-items: center;
   }
 
   .video-section-line {
     position: static;
-    font-size: 50px;
+    font-size: 65px;
     margin: 0;
   }
 
   #text-line-3.video-section-line {
-    width: 450px;
+    width: 400px;
     line-height: 35px;
     font-size: 22px;
   }
 
   .video-section-link {
     position: static;
-    width: 450px;
+    width: 400px;
   }
 }
 
-@media (min-width: 501px) and (max-width: 650px) {
-  .video-section-content {
-    height: 60%;
-    align-items: center;
-  }
-
+@media (min-width: 601px) and (max-width: 1024px) {
   .video-section-line {
-    position: static;
-    font-size: 75px;
+    font-size: 80px;
     margin: 0;
   }
 
+  #text-line-1.video-section-line {
+    position: absolute;
+    left: 50px;
+    top: 150px;
+  }
+
+  #text-line-2.video-section-line {
+    position: absolute;
+    right: 50px;
+    top: 300px;
+  }
+
   #text-line-3.video-section-line {
+    margin-top: 200px;
     width: 450px;
     line-height: 35px;
-    font-size: 22px;
+    font-size: 24px;
   }
 
   .video-section-link {
     position: static;
-    width: 450px;
+    width: 300px;
   }
 }
 
-@media (min-width: 651px) and (max-width: 950px) {
+@media (min-width: 1025px) and (max-width: 1440px) {
   .video-section-content {
-    height: 60%;
-    align-items: center;
+    padding-left: 150px;
   }
 
   .video-section-line {
@@ -161,8 +160,21 @@ video {
     position: static;
   }
 
+  #text-line-1.video-section-line {
+    position: absolute;
+    left: 100px;
+    top: 150px;
+  }
+
+  #text-line-2.video-section-line {
+    position: absolute;
+    right: 100px;
+    top: 300px;
+  }
+
   #text-line-3.video-section-line {
-    width: 650px;
+    margin-top: 200px;
+    width: 850px;
     line-height: 35px;
     font-size: 25px;
     text-align: center;
@@ -173,22 +185,43 @@ video {
   }
 }
 
-@media (min-width: 951px) and (max-width: 1450px) {
+@media (min-width: 1440px) {
   .video-section-content {
-    height: 60%;
+    padding-left: 200px;
   }
 
   .video-section-line {
-    left: -100px;
+    font-size: 130px;
+    position: static;
+  }
+
+  #text-line-1.video-section-line {
+    position: absolute;
+    left: 100px;
+    top: 150px;
   }
 
   #text-line-2.video-section-line {
-    left: 100px;
+    position: absolute;
+    right: 100px;
+    top: 300px;
   }
 
   #text-line-3.video-section-line {
-    width: 650px;
+    margin-top: 250px;
+    width: 900px;
     line-height: 35px;
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .video-section-link {
+    position: static;
+  }
+
+  video {
+    width: 100%;
+    height: auto;
   }
 }
 </style>
