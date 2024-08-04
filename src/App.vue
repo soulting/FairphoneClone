@@ -1,5 +1,5 @@
 <template>
-  <nav @mouseover="navbarHover = true" @mouseleave="navbarHover = false">
+  <!-- <nav @mouseover="navbarHover = true" @mouseleave="navbarHover = false">
     <div class="navbar-logo-container">
       <img
         @click="goToView('')"
@@ -58,7 +58,7 @@
   </nav>
   <transition>
     <div v-if="navbarHover" class="white-background"></div>
-  </transition>
+  </transition> -->
   <router-view />
 </template>
 

@@ -3,6 +3,11 @@
     <div class="mission-statement-container">
       <div class="mission-statement-text">
         <h2 class="mission-statement-title">Your phone can do better</h2>
+        <img
+          class="mission-statement-image"
+          src="@/assets/01_images/01_products/FP5 Parts.webp"
+          alt="photo of a dissected Fairphone"
+        />
         <p class="mission-statement-description">
           We make fair(er) phones - To change the industry from the inside. One
           step at a time, all over the world. Together with our community, we’re
@@ -16,11 +21,6 @@
           ABOUT US
         </button>
       </div>
-      <img
-        class="mission-statement-image"
-        src="@/assets/01_images/01_products/FP5 Parts.webp"
-        alt="photo of a dissected Fairphone"
-      />
     </div>
   </section>
 </template>
@@ -30,6 +30,7 @@
 <style setup>
 .mission-statement {
   display: flex;
+  height: 100vh;
 }
 
 .mission-statement-container {
@@ -91,5 +92,108 @@
   right: 0;
   bottom: 0;
   z-index: -2;
+}
+
+@media (max-width: 600px) {
+  .mission-statement {
+    height: 110vh;
+  }
+
+  .mission-statement-container {
+    margin: 15px 30px;
+  }
+
+  .mission-statement-title {
+    font-size: 45px;
+    position: absolute;
+    width: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+
+  .mission-statement-image {
+    height: auto;
+    width: 90%;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+    bottom: auto;
+  }
+  .mission-statement-text {
+    justify-content: flex-end;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: auto;
+  }
+
+  .mission-statement-title {
+    font-size: 55px;
+    position: absolute;
+    width: auto;
+    top: 0;
+    left: 0;
+  }
+
+  .mission-statement-description {
+    width: auto;
+    margin-bottom: 24px;
+  }
+  .mission-statement-button {
+    width: 80%;
+    max-width: 350px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  .mission-statement {
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+
+  .mission-statement-container {
+    margin: 30px;
+    width: 80%;
+    max-width: 600px;
+  }
+
+  .mission-statement-text {
+    position: static;
+    width: auto;
+  }
+
+  .mission-statement-title {
+    font-size: 55px;
+  }
+
+  .mission-statement-image {
+    height: 50%;
+    max-height: 400px;
+    width: 65%;
+    margin-left: auto;
+    position: relative;
+    top: -50px;
+  }
+
+  .mission-statement-description {
+    width: auto;
+    position: relative;
+    top: -50px;
+  }
+
+  .mission-statement-button {
+    position: relative;
+    top: -50px;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+}
+
+@media (min-width: 1440px) {
 }
 </style>

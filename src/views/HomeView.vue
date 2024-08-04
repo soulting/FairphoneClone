@@ -1,9 +1,9 @@
 <template>
   <div class="home-view-container">
     <VideoSectionVue />
-    <!-- <FormerProductsSectionVue />
+    <FormerProductsSectionVue />
     <MissionStatementSectionVue />
-    <MissionExplanationSectionVue />
+    <!-- <MissionExplanationSectionVue />
     <ImpactctSectionVue />
     <CarouselSectionVue />
     <RecycleSectionVue />

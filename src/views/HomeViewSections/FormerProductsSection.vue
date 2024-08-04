@@ -42,6 +42,7 @@ const goToProductView = (product) => {
   justify-content: center;
   align-items: center;
   gap: 25px;
+  height: 100vh;
 }
 
 .product-card {
@@ -92,5 +93,50 @@ const goToProductView = (product) => {
 .product-button:hover {
   background-color: black;
   color: white;
+}
+
+@media (max-width: 600px) {
+  .products-section {
+    height: auto;
+    padding: 25px 0;
+    flex-direction: column;
+  }
+
+  .product-card {
+    width: 80%;
+    height: auto;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  .products-section {
+    height: auto;
+    padding: 25px 0;
+    flex-direction: column;
+  }
+
+  .product-card {
+    width: 500px;
+    height: 447px;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .products-section {
+    flex-direction: row;
+  }
+
+  .product-card {
+    width: 500px;
+    height: 447px;
+    padding: 30px 20px;
+  }
+
+  .product-description {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 1440px) {
 }
 </style>
