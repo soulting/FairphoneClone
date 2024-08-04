@@ -83,8 +83,6 @@
 }
 
 .mission-statement-image {
-  width: 700px;
-  height: 500px;
   object-fit: cover;
   overflow: hidden;
   border-radius: 25px;
@@ -96,7 +94,7 @@
 
 @media (max-width: 600px) {
   .mission-statement {
-    height: 110vh;
+    height: 700px;
   }
 
   .mission-statement-container {
@@ -104,7 +102,7 @@
   }
 
   .mission-statement-title {
-    font-size: 45px;
+    font-size: 40px;
     position: absolute;
     width: auto;
     top: 0;
@@ -115,10 +113,10 @@
   .mission-statement-image {
     height: auto;
     width: 90%;
+    aspect-ratio: 5 / 3;
     left: 50%;
     top: 45%;
     transform: translate(-50%, -50%);
-    bottom: auto;
   }
   .mission-statement-text {
     justify-content: flex-end;
@@ -138,7 +136,7 @@
 
   .mission-statement-description {
     width: auto;
-    margin-bottom: 24px;
+    margin-bottom: 15px;
   }
   .mission-statement-button {
     width: 80%;
@@ -192,8 +190,100 @@
 }
 
 @media (min-width: 1025px) and (max-width: 1440px) {
+  .mission-statement {
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+
+  .mission-statement-container {
+    margin: 30px;
+    width: 80%;
+    max-width: 850px;
+  }
+
+  .mission-statement-text {
+    position: static;
+    width: auto;
+  }
+
+  .mission-statement-title {
+    font-size: 65px;
+    width: 750px;
+  }
+
+  .mission-statement-image {
+    height: 50%;
+    max-height: 450px;
+    width: 65%;
+    margin-left: auto;
+    position: relative;
+    top: -50px;
+  }
+
+  .mission-statement-description {
+    width: auto;
+    position: relative;
+    top: -50px;
+    font-size: 26px;
+    line-height: 32px;
+    margin: 30px 0;
+  }
+
+  .mission-statement-button {
+    position: relative;
+    top: -50px;
+  }
 }
 
 @media (min-width: 1440px) {
+  .mission-statement {
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+
+  .mission-statement-container {
+    margin: 30px;
+    width: 80%;
+    max-width: 1000px;
+  }
+
+  .mission-statement-text {
+    position: static;
+    width: auto;
+  }
+
+  .mission-statement-title {
+    font-size: 90px;
+    width: 850px;
+  }
+
+  .mission-statement-image {
+    height: 50%;
+    max-height: 500px;
+    width: 65%;
+    margin-left: auto;
+    position: relative;
+    top: -50px;
+  }
+
+  .mission-statement-description {
+    width: auto;
+    position: relative;
+    top: -50px;
+    font-size: 26px;
+    line-height: 32px;
+    margin: 35px 0;
+  }
+
+  .mission-statement-button {
+    position: relative;
+    top: -50px;
+  }
 }
 </style>

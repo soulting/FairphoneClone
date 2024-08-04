@@ -42,7 +42,6 @@ const goToProductView = (product) => {
   justify-content: center;
   align-items: center;
   gap: 25px;
-  height: 100vh;
 }
 
 .product-card {
@@ -106,6 +105,10 @@ const goToProductView = (product) => {
     width: 80%;
     height: auto;
   }
+
+  .product-button {
+    width: 300px;
+  }
 }
 
 @media (min-width: 601px) and (max-width: 1024px) {
@@ -124,6 +127,7 @@ const goToProductView = (product) => {
 @media (min-width: 1025px) and (max-width: 1440px) {
   .products-section {
     flex-direction: row;
+    height: 800px;
   }
 
   .product-card {
@@ -138,5 +142,9 @@ const goToProductView = (product) => {
 }
 
 @media (min-width: 1440px) {
+  .products-section {
+    flex-direction: row;
+    height: 900px;
+  }
 }
 </style>
