@@ -227,7 +227,7 @@
     width: auto;
     position: relative;
     top: -50px;
-    font-size: 26px;
+    font-size: 22px;
     line-height: 32px;
     margin: 30px 0;
   }
@@ -276,7 +276,7 @@
     width: auto;
     position: relative;
     top: -50px;
-    font-size: 26px;
+    font-size: 22px;
     line-height: 32px;
     margin: 35px 0;
   }

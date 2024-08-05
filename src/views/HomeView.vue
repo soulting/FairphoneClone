@@ -3,8 +3,8 @@
     <VideoSectionVue />
     <FormerProductsSectionVue />
     <MissionStatementSectionVue />
-    <!-- <MissionExplanationSectionVue />
-    <ImpactctSectionVue />
+    <MissionExplanationSectionVue />
+    <!-- <ImpactctSectionVue />
     <CarouselSectionVue />
     <RecycleSectionVue />
     <StoriesSectionVue />
